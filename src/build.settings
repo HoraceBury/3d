@@ -1,0 +1,16 @@
+settings =
+{
+	orientation =
+	{
+		default = "portrait",
+--		default = "landscapeRight",
+		supported = { "portrait", "landscapeRight" }
+	},
+	iphone =
+    {
+        plist =
+        {
+            NSMotionUsageDescription = "This app would like to access the accelerometer.",
+        },
+    },
+}
